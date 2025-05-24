@@ -1,4 +1,4 @@
-name: hugging
+name: neurattr_hugging
 channels:
   - defaults
 dependencies:
@@ -72,7 +72,7 @@ dependencies:
   - zlib=1.2.12=h7f8727e_2
   - pip:
     - accelerate==0.26.1
-    - aclpubcheck==0.1
+    # - aclpubcheck==0.1
     - aiofiles==23.2.1
     - annotated-types==0.7.0
     - anyio==4.4.0
@@ -120,14 +120,14 @@ dependencies:
     - fonttools==4.47.2
     - fqdn==1.5.1
     - fsspec==2023.10.0
-    - gradio==4.42.0
-    - gradio_client==1.3.0
+    # - gradio==4.42.0
+    # - gradio_client==1.3.0
     - h11==0.14.0
     - httpcore==1.0.5
     - httpx==0.27.0
     - huggingface-hub==0.20.3
     - importlib-resources==6.1.1
-    - install==1.3.5
+    - pip-install==1.3.5
     - ipykernel==6.29.4
     - ipython==8.12.3
     - ipywidgets==8.1.3
